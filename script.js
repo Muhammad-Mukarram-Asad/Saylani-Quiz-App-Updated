@@ -152,7 +152,7 @@ submit.addEventListener("click", () => {
       message.style.fontSize = "25px";
       message.style.fontWeight = "bold";
       result.innerHTML = "<h3> Your total score is = " + score + "/" + quizlist.length + "<br />"+
-      "<button class='btn' onclick='location.reload()'> Restart </button> <br/>";
+      "<button class='btns' onclick='location.reload()'> Restart </button> <br/>";
       message.innerText = "That's a very bad result. You have to work hard and be consistent.";
       submit.style.display = "none";
     }
@@ -163,7 +163,7 @@ submit.addEventListener("click", () => {
       result.innerHTML =
       "<h3> Your total score is = " + score + "/" + quizlist.length +
       "<br />" + "Extraordinary Result. Ma Sha Allah, Keep it up and wish you best of luck for your future.<br/> "+
-      "<button class='btn' onclick='location.reload()'> Restart </button>";
+      "<button class='btns' onclick='location.reload()'> Restart </button>";
        submit.style.display = "none";
 
     }
@@ -175,7 +175,7 @@ submit.addEventListener("click", () => {
       result.innerHTML =
       "<h3> Your total score is = " + score + "/" + quizlist.length +
       "<br />" + "Bravo!!,Keep it up and work hard.<br/> "+
-      "<button class='btn' onclick='location.reload()'> Restart </button>";
+      "<button class='btns' onclick='location.reload()'> Restart </button>";
        submit.style.display = "none";
     }
 }
